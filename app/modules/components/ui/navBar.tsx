@@ -39,13 +39,7 @@ const NavBar: React.FC<AppProps> = ({ menuItems }) => {
       {/* Left side - Logo */}
       <NavbarContent className="gap-4" justify="start">
         <NavbarBrand>
-          <img
-            src="/path/to/logo.png"
-            alt="Logo"
-            className={`transition-transform duration-1000 ${
-              isScrolled ? "h-8" : "h-12"
-            }`}
-          />
+       <h4><i>CL</i></h4>
         </NavbarBrand>
       </NavbarContent>
 
